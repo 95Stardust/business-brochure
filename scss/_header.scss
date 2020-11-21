@@ -1,0 +1,59 @@
+header h1 {
+    display:flex;
+    padding-right:10px;
+    font-size:3.0em;
+    margin:0;
+    color:black;
+    justify-content:space-between;
+    align-items:center;
+    font-family:"newrockerregular";
+
+}
+
+.banner {
+    display:flex;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    width:100%; 
+}
+
+ .workshops {
+    
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    width:320px; 
+    height:180px;
+    padding:4px;
+    background-color:rgb(129, 38, 38);
+
+ }
+
+.workshop-text {
+
+    font-size:2.0em;
+    text-align:center;
+    position:relative;
+    bottom:40px;
+    color:rgb(117, 18, 18);
+    text-shadow:2px 2px black;
+    
+}
+
+
+@media only screen and (min-width:$tablet) {
+    header h1 {
+        padding-right:80px;
+        font-size:4.0em;
+    }
+}
+
+@media only screen and (min-width:$desktop) {
+   header h1 {
+        padding-right:500px; 
+        font-size:8em;
+    }
+}

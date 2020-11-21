@@ -1,0 +1,65 @@
+.footer {
+    border-top:solid 4px rgb(192, 61, 61);
+    padding:60px;
+    color:black;
+    background-color:rgb(88, 79, 68);
+    font-size:1.5em;
+    text-align:center;
+    
+     .footer-text {
+         width:350px;
+         position:relative;
+       
+    }
+
+    .footer-academic {
+        position:relative;
+        padding-top:100px;
+        
+    }
+    
+}
+
+@media only screen and (min-width:$tablet) {
+    
+    .footer {
+        
+       .footer-text {
+         position:relative; 
+         width:550px;
+         
+         
+    }
+
+    .footer-academic {
+        position:relative;
+        width:600px;
+        
+    }
+    }
+
+}
+
+@media only screen and (min-width:$desktop) {
+
+    .footer {
+        
+        .footer-text {
+          position:relative; 
+          width:100%;
+          
+          
+          
+     }
+ 
+     .footer-academic {
+         position:relative;
+         width:100%;
+         
+     
+     }
+ 
+ }
+ 
+
+}

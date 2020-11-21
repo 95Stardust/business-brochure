@@ -1,0 +1,33 @@
+section {
+    padding:10px;
+    line-height:20px;
+
+
+.welcome-heading {
+    font-size:2.0em;
+    text-align:center;
+}
+
+.welcome-text {
+    font-size:1.5em;
+    line-height:30px;
+}
+
+}
+
+
+
+
+
+@media only screen and (min-width:$tablet) {
+    .welcome-heading {
+        font-size:3.5em;
+    }
+
+}
+
+@media only screen and (min-width:$desktop) {
+
+
+
+}
