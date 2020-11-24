@@ -16,7 +16,18 @@ section {
 }
 
 
+.form-section {
+    margin-left: 10%;
+    font-weight: bold;
+}
 
+.social-media {
+    margin-bottom: 15px;
+}
+.social-media div {
+    display: flex;
+    flex-direction: row;
+}
 
 
 @media only screen and (min-width:$tablet) {

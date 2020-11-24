@@ -14,10 +14,10 @@ ul {
     
 }
 
-li a {
+nav ul li a {
     display:block;
     color:black;
-    padding:10px 20px;
+    padding:20px;
     text-decoration:none;
     position:relative;
     
@@ -37,10 +37,25 @@ li {
 
 nav a {
     display:block;
-    padding:10px;
+    text-align: center;
     background-color:rgb(129, 38, 38);
 }
 
+nav ul li a {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 7%;
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (min-width:$desktop) {
+    nav ul {
+        flex-direction: row;
+    }
+}
 .nav ul {
     list-style: none;
     margin: 0;
