@@ -1,29 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
- @font-face {
-    font-family: 'newrockerregular';
-    src: url('newrocker-regular-webfont.woff2') format('woff2'),
-         url('newrocker-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 @font-face {
     font-family: 'rock_saltregular';
-    src: url('rocksalt-webfont.woff2') format('woff2'),
-         url('rocksalt-webfont.woff') format('woff');
+    src: url('../fonts/rocksalt-webfont.woff2') format('woff2'),
+         url('../fonts/rocksalt-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
-h1, h2, h3, h4, p {
-    font-family:'newrockerregular';
+h1, h2, h3, h4 {
+    font-family: 'rock_saltregular';
     margin-top: 0;
+    text-align:center;
 }
+
+nav ul li a {
+    font-family: 'rock_saltregular';
+}
+
 section {
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+footer {
+    font-family:'rock_saltregular';
 }
      
 

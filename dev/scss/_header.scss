@@ -1,13 +1,17 @@
 header h1 {
-    display:flex;
     padding-right:10px;
-    font-size:3.0em;
+    font-size:2.0em;
     margin:0;
     color:black;
-    justify-content:space-between;
     align-items:center;
-    font-family:"newrockerregular";
+    line-height:50px;
+     
+}
 
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
 }
 
 .banner {
@@ -19,8 +23,11 @@ header h1 {
     width:100%; 
 }
 
+.welcome-heading {
+    line-height:50px;
+}
+
  .workshops {
-    
     position: relative;
     margin-left:auto;
     margin-right:auto;
@@ -46,14 +53,23 @@ header h1 {
 
 @media only screen and (min-width:$tablet) {
     header h1 {
-        padding-right:80px;
-        font-size:4.0em;
+        padding-right:20px;
+        font-size:3.0em;
+        line-height:70px;
     }
 }
 
+@media only screen and (min-width:$tabletLarge) {
+    header h1 {
+         padding-right:40px; 
+         font-size:3.5em;
+         line-height:110px;
+     }
+ }
+
 @media only screen and (min-width:$desktop) {
    header h1 {
-        padding-right:500px; 
-        font-size:8em;
+        padding-right:200px; 
+        font-size:5.0em;
     }
 }

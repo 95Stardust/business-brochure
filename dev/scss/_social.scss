@@ -1,8 +1,15 @@
+
+.social-media h2 {
+    padding-top:30px;
+    line-height:35px;
+}
+
 .grid {
     display:grid;
     grid-gap:20px;
     grid-template-columns:1fr, 1fr;
     grid-template-rows:auto;
+    justify-content:center;
 
     .grid img {
         display:block;

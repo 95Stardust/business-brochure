@@ -2,7 +2,15 @@
     font-size:2.5em;
     text-align:center;
     color:black;
-    line-height:40px;
+    line-height:60px;
+    padding-top:20px;
+}
+
+.workshop-guitar {
+    display:flex;
+    flex:100%;
+    justify-content:center;
+    
 }
 
 .workshop-info {
@@ -12,9 +20,14 @@
     
 }
 
+.form-section {
+    margin-left: 10%;
+    font-weight: bold;
+}
 
 .join-us {
     font-size:2.0em;
+    line-height:50px;
 }
 
 .sign-up {
