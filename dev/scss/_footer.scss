@@ -6,35 +6,14 @@
     font-size:1.5em;
     text-align:center;
     
-     .footer-text {
-         position:relative;
-       
-    }
-
-    .footer-academic {
-        position:relative;
-        padding-top:100px;
-        
-    }
-    
 }
 
-@media only screen and (min-width:$tablet) {
+@media only screen and (min-width:$tabletLarge) {
     
     .footer {
-        
-       .footer-text {
-         position:relative; 
-         width:550px;
-         
-         
-    }
-
-    .footer-academic {
-        position:relative;
-        width:600px;
-        
-    }
+        position:relative; 
+        width:400px;
+        padding:40px;
     }
 
 }
@@ -42,23 +21,9 @@
 @media only screen and (min-width:$desktop) {
 
     .footer {
-        
-        .footer-text {
-          position:relative; 
-          width:100%;
-          
-          
-          
-     }
+        position:relative; 
+        width:100%;
+             
+    }
  
-     .footer-academic {
-         position:relative;
-         width:100%;
-         
-     
-     }
- 
- }
- 
-
 }
